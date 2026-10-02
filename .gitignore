@@ -1,0 +1,8 @@
+dist/
+node_modules/
+.gitnexus/
+AGENTS.md
+CLAUDE.md
+.claude/
+*.log
+.DS_Store
