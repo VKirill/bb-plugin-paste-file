@@ -12,5 +12,4 @@ export const rpcContract = defineRpcContract({
   setPrefs: { input: prefsSchema.partial(), output: prefsSchema },
 });
 
-/** Realtime event published after preferences change. */
-export const PREFS_CHANGED = "prefs-changed";
+export { PREFS_CHANGED } from "./events";

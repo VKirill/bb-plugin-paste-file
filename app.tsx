@@ -7,7 +7,8 @@ import { definePluginApp, useRealtime, useRealtimeConnectionState, useRpc } from
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
-import { PREFS_CHANGED, rpcContract } from "./contract";
+import type { rpcContract } from "./contract";
+import { PREFS_CHANGED } from "./events";
 import { mountPasteInterceptor } from "./interceptor";
 import { DEFAULT_PREFS, LIMITS, normalizePrefs, type PastePrefs } from "./paste-file";
 import { t, useLocale } from "./i18n";
